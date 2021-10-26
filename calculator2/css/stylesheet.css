@@ -1,0 +1,88 @@
+body{
+    font-weight: 500;
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+  background: transparent;
+  height: 30px;
+  color: white;
+  margin-right: 4px;
+  text-align: right;
+  float: right;
+}
+
+.calc{
+    width: 430px;
+    margin: auto;
+}
+
+.numbers{
+    display: inline-block;
+    float: left;
+    width: 327px;
+}
+
+.numbers button{
+    width: 100px;
+    height: 100px;
+    margin: 3px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.numbers button:hover, .operators button:hover{
+    background-color: rgb(19, 136, 168);
+    color: white;
+}
+
+
+
+.operators{
+    display: inline-block;
+    float: right;
+    width: 100px;
+}
+
+.operators button{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 3px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.equals{
+    display: block;
+    width: 220px;
+    transform: translateX(-110px);
+}
+
+#equals{
+   width: 210px;
+   transform: translate(-110px, -106px);
+}
+
+.display {
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 14px;
+    font-size: 2rem;
+    background-color: rgb(19, 136, 168);
+    color: #000;
+    text-align: right;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    color: white;
+  }
