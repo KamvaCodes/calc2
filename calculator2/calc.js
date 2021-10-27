@@ -19,8 +19,8 @@ function calculate(event) {
       // check if the display is not empty then only do the calculation
 
       if (displayOutput.value !== '') {
-        // calculate and show the answer to display
-        displayOutput.value = eval(displayOutput.value) //eval function does the calculation
+        // calculate and display the answer
+        displayOutput.value = eval(displayOutput.value) //eval function executes the calculation
       }
     } else {
       // otherwise concatenate it to the display
